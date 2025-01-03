@@ -107,12 +107,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2025-01-03 04:21:42 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/quartz_pillar": {
     "criteria": {
       "has_quartz_block": "2025-01-03 04:21:41 +0000"
@@ -130,6 +124,12 @@
       "has_log": "2025-01-03 04:21:41 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-01-03 04:21:42 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }

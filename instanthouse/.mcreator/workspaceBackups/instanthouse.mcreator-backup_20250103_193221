@@ -1,0 +1,76 @@
+{
+  "mod_elements": [
+    {
+      "name": "OakHouseRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_house_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/instanthouse/procedures/OakHouseRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OakHouse",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_house",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/instanthouse/item/OakHouseItem.java",
+          "src/main/resources/assets/instanthouse/models/item/oak_house.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.instanthouse.oak_house": "Oak House"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "instanthouse",
+    "modName": "InstantHouse",
+    "version": "1.0.0",
+    "author": "FIFI, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.instanthouse"
+  },
+  "mcreatorVersion": 202400451119
+}
